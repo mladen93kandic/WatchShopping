@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="modalwindow">
+        <div id="exit">+</div>
+    </div>
+
+    <div class="container">
+
+        <div class="add-product">
+            <form>
+                <div>
+                    <label>Product name:</label>
+                    <input type="text" id="productname" placeholder="Casio Watch" />
+                </div>
+
+                <div>
+                    <label>Product description:</label>
+                    <textarea id="productdescription" placeholder="Sample description..."></textarea>
+                </div>
+
+                <div>
+                    <label>Product image:</label>
+                    <input type="text" id="productimage" placeholder="http://...jpg" />
+                </div>
+
+                <div>
+                    <label>Product price:</label>
+                    <input type="number" id="productprice" min="0" placeholder="33.50" />
+                </div>
+
+                <button id="addbutton">Add</button>
+            </form>
+        </div>
+
+        <div class="list-products">
+            <!--<div class="product">
+                <p>Sample Watch</p>
+                <img src="https://sc02.alicdn.com/kf/HTB1gHRfg6uhSKJjSspmq6AQDpXaI/Accept-Sample-Design-Your-Own-Blank-Wrist.jpg_350x350.jpg" />
+                <p> Dobar</p>
+                <p>$199</p>
+                <button class="details-button">Details</button>
+                <button class="buy-button">Buy</button>
+            </div>
+
+            <div class="product">
+                <p>Product #2</p>
+                <img src="https://pl.shadestation.com/media/thumbs/350x350/media/product_images/Fossil-Watches-FS5439fw350fh350.jpg" />
+                <p> Dobar</p>
+                <p>$230</p>
+                <button class="details-button">Details</button>
+                <button class="buy-button">Buy</button>
+            </div>
+        -->
+        </div>
+
+        <div class="shopping-cart">
+            <div class="shopping-cart-products">
+                <!--
+                <div class="shopping-cart-product">
+                    <div class="product-info">
+                        <div>
+                            <h3>Sample Watch</h3>
+                            <p>$199 &times;<span class="times"> 1 </span></p>
+                        </div>
+                        <img alt="watchimage" src="https://sc02.alicdn.com/kf/HTB1gHRfg6uhSKJjSspmq6AQDpXaI/Accept-Sample-Design-Your-Own-Blank-Wrist.jpg_350x350.jpg" />
+                    </div>
+                    <div class="product-count">
+                        <button class="minus">-</button>
+                        <span class="quantity">1</span>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+
+                <div class="shopping-cart-product">
+                    <div class="product-info">
+                        <div>
+                            <h3>Product #2</h3>
+                            <p>$230 &times;<span class="times"> 1 </span></p>
+                        </div>
+                        <img alt="watchimage" src="https://pl.shadestation.com/media/thumbs/350x350/media/product_images/Fossil-Watches-FS5439fw350fh350.jpg" />
+                    </div>
+                    <div class="product-count">
+                        <button class="minus">-</button>
+                        <span class="quantity">1</span>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                    -->
+            </div>
+            <div class="shopping-cart-summary">
+                <div>Total: <b>$ <span id="total">0</span></b></div>
+                <div><button id="purchase">Purchase</button></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="script1.js"></script>
+</body>
+
+</html>
